@@ -1,0 +1,2 @@
+This is a git-buildpackage repository for wkhtmltopdf.
+It is statically linked to qt. See also github.com/wkhtmltopdf/wkhtmltopdf.
