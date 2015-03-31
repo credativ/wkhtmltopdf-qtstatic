@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+build:
+	git clone --recursive https://github.com/wkhtmltopdf/wkhtmltopdf.git wk && \
+	cd wk && git checkout 0.12.2.1 && scripts/build.py posix-local && cd ..
+override_dh_auto_build: 
+override_dh_auto_install:
+	mv wk/static-build/posix-local/wkhtmltox*/* debian/wkhtmltopdf-qtstatic/

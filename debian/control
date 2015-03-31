@@ -1,0 +1,14 @@
+Source: wkhtmltopdf-qtstatic
+Section: text
+Priority: optional
+Maintainer: Damian Lukowski <damian.lukowski@credativ.de>
+Uploaders: Damian Lukowski <damian.lukowski@credativ.de>
+Build-Depends: debhelper (>= 7), git, qt4-qmake, python, xz-utils, libssl-dev, libpng-dev, libjpeg8-dev, zlib1g-dev, libfontconfig1-dev, libfreetype6-dev, libx11-dev, libxext-dev, libxrender-dev, ca-certificates
+Standards-Version: 3.9.5
+
+Package: wkhtmltopdf-qtstatic
+Architecture: all
+Depends: ${misc:Depends}, fontconfig, xfonts-75dpi
+Conflicts: wkhtmltopdf
+Description: wkhtmltopdf with statically linked qt library
+

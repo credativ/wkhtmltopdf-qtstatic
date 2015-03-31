@@ -1,0 +1,5 @@
+wkhtmltopdf-qtstatic (0.12.2.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Damian Lukowski <damian.lukowski@credativ.de>  Mon, 30 Mar 2015 15:31:27 +0200
