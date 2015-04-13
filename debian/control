@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7), git, qt4-qmake, python, xz-utils, libssl-dev, l
 Standards-Version: 3.9.5
 
 Package: wkhtmltopdf-qtstatic
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}, fontconfig, xfonts-75dpi
 Conflicts: wkhtmltopdf
 Description: wkhtmltopdf with statically linked qt library
