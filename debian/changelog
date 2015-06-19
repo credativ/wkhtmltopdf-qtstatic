@@ -1,3 +1,9 @@
+wkhtmltopdf-qtstatic (0.12.2.1-6) unstable; urgency=medium
+
+  * add build-arch target for i386 build on wheezy and jessie
+
+ -- Carsten Wolff <carsten.wolff@credativ.de>  Fri, 19 Jun 2015 13:01:39 +0200
+
 wkhtmltopdf-qtstatic (0.12.2.1-5) unstable; urgency=medium
 
   * just rebuild
