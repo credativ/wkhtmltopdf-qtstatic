@@ -1,3 +1,9 @@
+wkhtmltopdf-qtstatic (0.12.2.1-5) unstable; urgency=medium
+
+  * just rebuild
+
+ -- Carsten Wolff <carsten.wolff@credativ.de>  Fri, 19 Jun 2015 11:37:36 +0200
+
 wkhtmltopdf-qtstatic (0.12.2.1-4) unstable; urgency=medium
 
   * fix build on jessie
