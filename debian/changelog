@@ -1,3 +1,9 @@
+wkhtmltopdf-qtstatic (0.12.3.2.1) UNRELEASED; urgency=medium
+
+  * Clean version.
+
+ -- Bastian Blank <bastian.blank@credativ.de>  Wed, 13 Dec 2017 16:06:32 +0100
+
 wkhtmltopdf-qtstatic (0.12.3.2-1) unstable; urgency=medium
 
   * Update upstream tag to 0.12.3.2
