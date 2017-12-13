@@ -6,11 +6,10 @@
 build: build-arch
 
 build-arch:
-	git clone --recursive https://github.com/wkhtmltopdf/wkhtmltopdf.git wk && \
-	cd wk && git checkout 0.12.3.2 && scripts/build.py posix-local && cd ..
+	cd wkhtmltopdf && scripts/build.py posix-local && cd ..
 
 override_dh_auto_build:
 override_dh_auto_install:
 	-mkdir debian/wkhtmltopdf-qtstatic
-	mv wk/static-build/posix-local/wkhtmltox*/* debian/wkhtmltopdf-qtstatic/ && \
+	mv wkhtmltopdf/static-build/posix-local/wkhtmltox*/* debian/wkhtmltopdf-qtstatic/ && \
 	strip debian/wkhtmltopdf-qtstatic/lib/* debian/wkhtmltopdf-qtstatic/bin/*
