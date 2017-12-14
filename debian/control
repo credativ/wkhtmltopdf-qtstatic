@@ -10,5 +10,5 @@ Package: wkhtmltopdf-qtstatic
 Architecture: any
 Depends: ${misc:Depends}, fontconfig, xfonts-75dpi
 Conflicts: wkhtmltopdf
-Description: wkhtmltopdf with statically linked qt library
+Description: wkhtmltopdf with statically linked and patched qt library
 
